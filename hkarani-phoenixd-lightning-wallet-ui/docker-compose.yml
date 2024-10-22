@@ -1,12 +1,14 @@
 version: "3.7"
 
 services:
-  web:
-    image: hezronkarani/phoenixd-lightning-wallet-ui:v0.1.1@sha256:67a80d7f12bbc578bc575efd913ac3cfe1a6439c6bdda65c1fb67a249e037214
-    restart: on-failure
-    stop_grace_period: 1m
-    volumes:
-      - ../phoenixd-lightning-wallet/data/pslw:/root/.phoenix 
-      - ../phoenixd-lightning-wallet/data/datajson:/usr/src/app/dbjson
+
+  app_proxy:
     environment:
-      - PHOENIX_API_URL=http://127.0.0.1:9740
+      # The format here is: <app-id>_<docker-service-name>_1
+      APP_HOST: sparkles-hello-world_server_1
+      APP_PORT: 3000
+    
+  server:
+    image: getumbrel/community-app-store-hello-world:latest
+    user: "1000:1000"
+    init: true

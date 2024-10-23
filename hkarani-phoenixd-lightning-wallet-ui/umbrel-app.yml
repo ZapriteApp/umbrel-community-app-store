@@ -15,8 +15,7 @@ releaseNotes: >-
   - QR code for payments, contacts and offers
 developer: Hezron Karani
 website: "https://zaprite.com/"
-dependencies:
-  - phoenixd
+dependencies: []
 repo: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git
 support: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git/discussions
 port: 3000

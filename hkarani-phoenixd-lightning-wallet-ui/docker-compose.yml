@@ -12,3 +12,6 @@ services:
     image: hezronkarani/phoenixd-lightning-wallet-ui:v0.1.1
     user: "0:0"
     init: true
+    volumes:
+      - "${APP_DATA_DIR}/data/pslw:/root/.phoenix"
+      - "${APP_DATA_DIR}/data/datajson:/usr/src/app/dbjson"

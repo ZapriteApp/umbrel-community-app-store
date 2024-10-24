@@ -4,6 +4,7 @@ category: finance
 name: Phoenixd Lightning Wallet UI
 version: "0.1.1"
 tagline: A lightning wallet for Phoenix Server(phoenixd)
+icon: https://imagehoster.sirv.com/phoenixd%20wallet/icon.png
 description: >-
   This project is a Lightning wallet interface built on top of Phoenixd server(https://phoenix.acinq.co/server/ designed for Umbrel server. 
   
@@ -20,6 +21,11 @@ repo: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git
 support: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git/discussions
 port: 3000
 gallery:
+  - https://imagehoster.sirv.com/phoenixd%20wallet/contacts%20page.png
+  - https://imagehoster.sirv.com/phoenixd%20wallet/dashboard.png
+  - https://imagehoster.sirv.com/phoenixd%20wallet/login.png
+  - https://imagehoster.sirv.com/phoenixd%20wallet/sendmodal.png
+  - https://imagehoster.sirv.com/phoenixd%20wallet/transaction%20page.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""

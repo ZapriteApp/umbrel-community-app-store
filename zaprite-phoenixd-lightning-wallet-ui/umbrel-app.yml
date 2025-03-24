@@ -1,8 +1,8 @@
 manifestVersion: 1
-id: hkarani-phoenixd-lightning-wallet-ui
+id: zaprite-phoenixd-lightning-wallet-ui
 category: finance
 name: Phoenixd Lightning Wallet UI
-version: "0.1.1"
+version: "0.1.4"
 tagline: A lightning wallet for Phoenix Server(phoenixd)
 icon: https://imagehoster.sirv.com/phoenixd%20wallet/icon.png
 description: >-
@@ -14,11 +14,11 @@ releaseNotes: >-
   - Add and pay contacts
   - View transactions history table
   - QR code for payments, contacts and offers
-developer: Hezron Karani
+developer: Zaprite
 website: "https://zaprite.com/"
 dependencies: []
-repo: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git
-support: https://github.com/hkarani/phoenixd-lightning-wallet-ui.git/discussions
+repo: https://github.com/ZapriteApp/phoenix-server-wallet
+support: https://github.com/ZapriteApp/phoenix-server-wallet/issues/new
 port: 3000
 gallery:
   - https://imagehoster.sirv.com/phoenixd%20wallet/contacts%20page.png

@@ -9,7 +9,7 @@ services:
       APP_PORT: 3000
     
   server:
-    image: hezronkarani/phoenixd-lightning-wallet-ui:v0.1.1
+    image: hezronkarani/phoenix-server-wallet:0.1.5
     user: "0:0"
     init: true
     volumes:

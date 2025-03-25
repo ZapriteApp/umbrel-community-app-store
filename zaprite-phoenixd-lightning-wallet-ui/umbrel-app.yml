@@ -19,7 +19,7 @@ website: "https://zaprite.com/"
 dependencies: []
 repo: https://github.com/ZapriteApp/phoenix-server-wallet
 support: https://github.com/ZapriteApp/phoenix-server-wallet/issues/new
-port: 3000
+port: 32400
 gallery:
   - https://imagehoster.sirv.com/phoenixd%20wallet/contacts%20page.png
   - https://imagehoster.sirv.com/phoenixd%20wallet/dashboard.png

@@ -2,7 +2,7 @@ manifestVersion: 1
 id: zaprite-phoenixd-lightning-wallet-ui
 category: finance
 name: Phoenixd Lightning Wallet UI
-version: "0.1.4"
+version: "0.1.5"
 tagline: A lightning wallet for Phoenix Server(phoenixd)
 icon: https://imagehoster.sirv.com/phoenixd%20wallet/icon.png
 description: >-
@@ -10,10 +10,19 @@ description: >-
   
   Let's you easily manage your phoenixd transactions and leverage the power of Phoenixd for your Bitcoin Lightning wallet needs.
 releaseNotes: >-
-  - Send & Receive functionality for BOLT11 and BOLT12 
-  - Add and pay contacts
-  - View transactions history table
-  - QR code for payments, contacts and offers
+      - New
+        Conditionally show logout button only if password is set
+        Internationalized number values
+        Added option pay to contact offer or address
+        Tilda character for missing values in tables and modals
+        Reactive view and copy buttons
+    - Improved
+        Full client refactor to React library
+        Use port 32400 for better port availability
+    - Fixed 
+        Error showing only one contact in view contact modal
+        Double showing records for contacts and transactions
+        UI spelling errors
 developer: Zaprite
 website: "https://zaprite.com/"
 dependencies: []
